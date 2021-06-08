@@ -1,55 +1,60 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
     background: url(imagenes/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-
-*{
-    box-sizing: border-box;
-}
-
-.contenedor{
-    width: 70%;
-    max-width: 500px;
-    padding: 15px;
-
-}
-
 .formulario{
+    margin:auto;
+    width: 400px;
+    margin-top: 70px;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
     padding: 3px;
 }
-
+.contenedor{
+    width: 90%;
+    max-width: 500px;
+    padding: 15px;
+}
 h1{
     text-align: center;
     color: #1a2537;
     font-size: 30px;
 }
+.input-contenedor{
+    width: 100%;
+    margin-bottom: 10px;
+    border:0.5px solid #000;
+    display:flex;
+
+}
 
 input[type="text"], input[type="password"]{
     font-size: 15px;
-    width: 80%;
     padding: 10px;
     border: none;
+    width: 85%;
+    outline: none;
+    border-left: 1px solid #000;
 }
-
-.input-contenedor{
-    margin-bottom: 10px;
-    border:1px solid #aaa;
+.formulario .contenedor input[type="submit"]{
+    width: 100%;
 }
-
-
 .icon{
-    min-width: 50px;
+    width: 15%;
     text-align: center;
-    color: #999;
+    margin-top: 10px;
+    color: #000;
 }
 
 
@@ -66,10 +71,14 @@ input[type="text"], input[type="password"]{
     cursor: pointer;
 }
 
+.button:hover{
+    background: #00112c;
+}
+
 .button2{
     border: none;
     display: block;
-    margin:5px auto 0;
+    margin:20px auto 0;
     width: 100%;
     color: #fff;
     font-size: 15px;
@@ -77,6 +86,9 @@ input[type="text"], input[type="password"]{
     padding: 15px 20px;
     border-radius: 10px;
     cursor: pointer;
+}
+.button2:hover{
+    background: #ce181e;
 }
 
 .button3{
@@ -91,7 +103,9 @@ input[type="text"], input[type="password"]{
     border-radius: 10px;
     cursor: pointer;
 }
-
+.button3:hover{
+    background: #16214d;
+}
 .button4{
     border: none;
     display: block;
@@ -104,11 +118,9 @@ input[type="text"], input[type="password"]{
     border-radius: 10px;
     cursor: pointer;
 }
-
-.button:hover, .button2:hover, .button3:hover{
-    background: #002663;
+.button4:hover{
+    background: #000000;
 }
-
 p{
     text-align: center;
 }
@@ -122,6 +134,7 @@ p{
 .link:hover{
     color: #002663;
 }
+<<<<<<< HEAD
 
 @media(min-width:300px){
     .formulario{
@@ -132,3 +145,5 @@ p{
     }
 
 }
+=======
+>>>>>>> d32743bf46d56b350bb6d5f0631783e2b3c7ab2d
