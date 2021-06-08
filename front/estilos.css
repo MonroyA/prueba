@@ -57,7 +57,7 @@ input[type="text"], input[type="password"]{
     border: none;
     display: block;
     margin:5px auto 0;
-    width: 50%;
+    width: 100%;
     color: #fff;
     font-size: 15px;
     background: #1a2537;
@@ -70,7 +70,7 @@ input[type="text"], input[type="password"]{
     border: none;
     display: block;
     margin:5px auto 0;
-    width: 50%;
+    width: 100%;
     color: #fff;
     font-size: 15px;
     background: #ea4335;
@@ -83,7 +83,7 @@ input[type="text"], input[type="password"]{
     border: none;
     display: block;
     margin:5px auto 0;;
-    width: 50%;
+    width: 100%;
     color: #fff;
     font-size: 15px;
     background: #3b5998;
@@ -96,7 +96,7 @@ input[type="text"], input[type="password"]{
     border: none;
     display: block;
     margin:5px auto 0;
-    width: 50%;
+    width: 100%;
     color: #fff;
     font-size: 15px;
     background: #1a2537;
@@ -126,7 +126,7 @@ p{
 @media(min-width:300px){
     .formulario{
         margin:auto;
-        width: 400px;
+        width: 350px;
         margin-top: 70px;
         border-radius: 2%;
     }
