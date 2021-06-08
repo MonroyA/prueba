@@ -1,7 +1,8 @@
 body{
+    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: url(fondo.jpg);
+    background: url(imagenes/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -11,11 +12,17 @@ body{
 }
 
 .contenedor{
-    width: 100%;
+    width: 70%;
+    max-width: 500px;
     padding: 15px;
+
 }
 
 .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #fff;
     padding: 3px;
 }
@@ -23,20 +30,21 @@ body{
 h1{
     text-align: center;
     color: #1a2537;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 input[type="text"], input[type="password"]{
-    font-size: 20px;
+    font-size: 15px;
     width: 80%;
-    padding: 15px;
+    padding: 10px;
     border: none;
 }
 
 .input-contenedor{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border:1px solid #aaa;
 }
+
 
 .icon{
     min-width: 50px;
@@ -44,18 +52,60 @@ input[type="text"], input[type="password"]{
     color: #999;
 }
 
+
 .button{
     border: none;
-    width: 100%;
+    display: block;
+    margin:5px auto 0;
+    width: 50%;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     background: #1a2537;
     padding: 15px 20px;
-    border-radius: 15px;
+    border-radius: 10x;
     cursor: pointer;
 }
 
-.button:hover{
+.button2{
+    border: none;
+    display: block;
+    margin:5px auto 0;
+    width: 50%;
+    color: #fff;
+    font-size: 15px;
+    background: #ea4335;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button3{
+    border: none;
+    display: block;
+    margin:5px auto 0;;
+    width: 50%;
+    color: #fff;
+    font-size: 15px;
+    background: #3b5998;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button4{
+    border: none;
+    display: block;
+    margin:5px auto 0;
+    width: 50%;
+    color: #fff;
+    font-size: 15px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover, .button2:hover, .button3:hover{
     background: #002663;
 }
 
@@ -73,11 +123,11 @@ p{
     color: #002663;
 }
 
-@media(min-width:768px){
+@media(min-width:300px){
     .formulario{
         margin:auto;
-        width: 500px;
-        margin-top: 150px;
+        width: 400px;
+        margin-top: 70px;
         border-radius: 2%;
     }
 
