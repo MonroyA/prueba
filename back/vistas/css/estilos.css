@@ -72,13 +72,3 @@ p{
 .link:hover{
     color: #002663;
 }
-
-@media(min-width:768px){
-    .formulario{
-        margin:auto;
-        width: 500px;
-        margin-top: 150px;
-        border-radius: 2%;
-    }
-
-}
